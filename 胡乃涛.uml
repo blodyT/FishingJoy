@@ -10,8 +10,8 @@
 </XPD:HEADER>
 <XPD:BODY>
 <XPD:OBJ name="DocumentElement" type="UMLProject" guid="SMn/AFQDMUuMLmCpQJ8FYwAA">
-<XPD:ATTR name="Title" type="string">211506363</XPD:ATTR>
-<XPD:ATTR name="Author" type="string">胡乃涛</XPD:ATTR>
+<XPD:ATTR name="Title" type="string">211506398</XPD:ATTR>
+<XPD:ATTR name="Author" type="string">张政</XPD:ATTR>
 <XPD:ATTR name="#OwnedElements" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLModel" guid="vk1cGBz7aEeV+6BzLto1yAAA">
 <XPD:ATTR name="Name" type="string">Use Case Model</XPD:ATTR>
