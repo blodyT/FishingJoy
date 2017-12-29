@@ -1,12 +1,15 @@
 #pragma once
-#include"cocos2d.h"
-/*±≥æ∞≤„¿‡*/
-class BackgroundLayer :public cocos2d::Layer
+#include "cocos2d.h"
+
+USING_NS_CC;
+
+class BackgroundLayer :
+	public CCLayer
 {
 public:
-	BackgroundLayer();
-	~BackgroundLayer();
-	bool init();
-	
+	BackgroundLayer(void);
+	CREATE_FUNC(BackgroundLayer)
+	virtual bool init();
+	virtual ~BackgroundLayer(void);
 };
 

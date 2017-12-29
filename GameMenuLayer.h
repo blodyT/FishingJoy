@@ -1,19 +1,19 @@
 #pragma once
-#include"cocos2d.h"
-using namespace cocos2d;
-/*”Œœ∑≤Àµ•≤„*/
-class GameMenuLayer :public cocos2d::Layer
+#include "cocos2d.h"
+USING_NS_CC;
+
+class GameMenuLayer :
+	public CCLayer
 {
 public:
-	GameMenuLayer();
-	~GameMenuLayer();
+	GameMenuLayer(void);
 	CREATE_FUNC(GameMenuLayer);
-	virtual bool init(void);
-	static cocos2d::CCScene* scene();
+	static CCScene* scene(void);
+	void menuCallbackSelectScene(CCObject* sender);
+	void menuCallbackStartGame(CCObject* sender);
+	virtual bool init();
+	virtual ~GameMenuLayer(void);
 protected:
-	void createMenu();
-	void onStertGame(CCObject *sender);
-	void onSelectScene(CCObject *sender);
-
+	void createMenu(void);
 };
 
